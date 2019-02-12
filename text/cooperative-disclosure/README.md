@@ -38,6 +38,15 @@ and laptop.
 
 ![bob's routing goals](bobs-policy.png)
 
+These policies require disclosure, as follows:
+
+1. To recognize unknown senders, routing agent must see that a message
+is anon-crypted.
+2. To detect proof requests, routing agent must see the type of inner,
+forwarded message.
+3. To detect work-related or personal context, routing agent must know
+the sender.
+
 The default posture in agent-to-agent communication is maximum
 privacy, and minimal trust in a routing agent in the cloud that could
 be hacked or co-opted by a malicious sysadmin. If this posture isn't
